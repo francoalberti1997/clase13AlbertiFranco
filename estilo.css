@@ -1,0 +1,173 @@
+*{
+margin: 0%;
+padding: 0%;
+
+}
+
+
+body{
+    background-color: yellow;
+}  
+
+
+ul {   
+    list-style-type: none;
+    font-family: 'EB Garamond', serif;
+    background-color: black;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    height: 0,5%;
+}
+nav{
+    height: 250px;
+}
+
+header{
+    background-color:darkblue;  
+    padding: 10%;
+}
+
+
+h1{
+
+font-style:normal;
+
+font-weight:normal;
+
+font-size: 80px;
+
+font-family: 'EB Garamond', serif;
+
+text-align: center;
+
+text-decoration:underline;
+
+background-color: yellow;
+}
+
+a{
+
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    background-color:white;
+    color:black;
+}
+
+h2{
+    color: white;
+}
+
+
+
+h3{
+    font-family: 'EB Garamond', serif;
+}
+
+h3{
+    text-transform: uppercase;   
+    font-family: 'EB Garamond', serif; 
+}
+
+#profes{
+
+height: 500px;
+width: 500px;
+
+}
+
+#bod{
+position: relative;
+}
+
+
+#about{
+
+    position: relative;
+    display: inline-block;
+    margin-right: 0%;
+    height: 400px;
+    width: 400px;
+    margin-top: 5px;
+    padding-top: 5px;
+    content: 0px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction:row;
+    align-items: stretch;
+    height: 600px;
+}
+
+#texto{
+
+    background-color:blue;
+    width: 50%;
+    text-align:center;
+    font-size: 150px;
+
+}
+
+#imagen{
+    width: 50%;
+}
+img{
+    height: 100%;
+    width:100%;
+}
+
+#padre {
+
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%;
+
+    grid-template-rows: 33% 33% 33%;
+    
+    grid-template-areas:
+
+        "cursos duracion objetivo"
+
+        "cursos duracion objetivo"
+
+        "cursos duracion objetivo";
+
+    background-color: black;
+
+    height: 300px;
+
+    color: white;
+
+}
+
+
+
+#cursos {
+
+    grid-area: cursos;
+
+    background-color: chartreuse;
+
+}
+
+
+
+#duracion {
+
+    grid-area: duracion;
+
+    background-color: blue;
+
+}
+
+
+
+#objetivo {
+
+    grid-area: objetivo;
+
+    background-color: red;
+
+}
+

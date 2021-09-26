@@ -1,0 +1,36 @@
+
+ul {   
+    list-style-type: none;
+    font-family: 'EB Garamond', serif;
+    background-color: black;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    height: 0,5%;
+}
+nav{
+    height: 250px;
+
+}
+
+h2{
+    color: white;
+}
+
+img{
+    height: 250px;
+}
+
+
+#contacto{
+    background-color: yellowgreen;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    
+}
+
+.col{
+    display: flex;
+}
+
